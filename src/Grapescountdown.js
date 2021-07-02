@@ -4,15 +4,23 @@ import Grapestimer from './Grapestimer';
 class Grapescountdown extends Component {
     constructor(props) {
         super(props);
-        this.state = { num: 60 }
+        this.state = {
+            HH: 0,
+            MM: 0,
+            SS: 0
+        };
     }
 
     render() {
-        return(
+        return (
             <div>
-            <Grapestimer>{this.state.num}</Grapestimer>
-            <section><span>HH</span><span>MM</span><span>SS</span></section>
-        </div>
+                <Grapestimer>{this.state.num}</Grapestimer>
+                <section>
+                    <span>{this.state.HH}</span>
+                    <span>{this.state.MM}</span>
+                    <span>{this.state.SS}</span>
+                </section>
+            </div>
         )
     }
 }
