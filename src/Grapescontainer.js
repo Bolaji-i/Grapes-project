@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import 'bulma/css/bulma.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Grapescontainer.css'
 import Grapestimer from './Grapestimer';
 import Grapesform from './Grapesform';
+import Grapesfavorites from './Grapesfavorites';
+
+
 
 class Grapescontainer extends Component {
     render() {
         return (
-            <div class="container is-max-widescreen">
-                <Grapestimer num={35}></Grapestimer>
-                <Grapesform></Grapesform>
+            <div class="container-sm px-4">
+                <Grapesfavorites></Grapesfavorites>
             </div>
         )
     }

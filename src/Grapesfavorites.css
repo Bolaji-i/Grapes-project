@@ -1,0 +1,13 @@
+
+.row {
+    width: 100%;
+}
+
+.row .col figure {
+    min-height: 100px;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    padding: 0.5em;
+}

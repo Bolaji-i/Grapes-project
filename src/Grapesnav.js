@@ -1,75 +1,57 @@
 import React, { Component } from 'react';
-import 'bulma/css/bulma.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Grapesnav.css'
 
-class Grapesnav extends Component{
-    render(){
-        return(
-            <div>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
-              <div class="navbar-brand">
-                <a class="navbar-item" href="https://bulma.io">
-                  <img alt="icon" src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-                </a>
-            
-                <a href="www.bbc.com" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                  <span aria-hidden="true"></span>
-                </a>
-              </div>
-            
-              <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-start">
-                  <a href="www.bbc.com" class="navbar-item">
-                    Home
+class Grapesnav extends Component {
+  render() {
+    return (
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="www.bbc.com">Grapes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="www.bbc.com">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="www.bbc.com">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="www.bbc.com" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
                   </a>
-            
-                  <a href="www.bbc.com" class="navbar-item">
-                    Documentation
-                  </a>
-            
-                  <div class="navbar-item has-dropdown is-hoverable">
-                    <a href="www.bbc.com" class="navbar-link">
-                      More
-                    </a>
-            
-                    <div class="navbar-dropdown">
-                      <a href="www.bbc.com" class="navbar-item">
-                        About
-                      </a>
-                      <a href="www.bbc.com" class="navbar-item">
-                        Jobs
-                      </a>
-                      <a href="www.bbc.com" class="navbar-item">
-                        Contact
-                      </a>
-                      <hr class="navbar-divider"/>
-                      <a href="www.bbc.com"class="navbar-item">
-                        Report an issue
-                      </a>
-                    </div>
-                  </div>
-                </div>
-            
-                <div class="navbar-end">
-                  <div class="navbar-item">
-                    <div class="buttons">
-                      <a href="www.bbc.com" class="button is-primary">
-                        <strong>Sign up</strong>
-                      </a>
-                      <a href="www.bbc.com" class="button is-light">
-                        Log in
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="www.bbc.com">Action</a></li>
+                    <li><a class="dropdown-item" href="www.bbc.com">Another action</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="www.bbc.com">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="www.bbc.com" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
           </div>
-        )
-    }
-
+        </nav>
+        <div className='welcome'>
+          <h1>Apps-Portfolio Project</h1>
+          <quote>
+            This space projects the things I really love and admire in life.
+            I believe we would have a few in common! :)
+          </quote>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Grapesnav;

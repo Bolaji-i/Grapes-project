@@ -1,13 +1,14 @@
+
 body {
- margin: 0;
- font-family: "Montserrat", "Avenir";
-}
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+   }
 .grapesform {
-    float: left;
     height: 230px;
     width: 280px;
     border: 2px solid rgb(88, 82, 82);
     border-radius: 7px;
+    margin-left: 15px;
 }
 .input{
    width: 260px;
@@ -22,4 +23,7 @@ body {
 .button {
     margin-right: 8px;
     float: right;
+}
+.card {
+    width: 18rem;
 }

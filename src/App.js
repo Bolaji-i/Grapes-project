@@ -1,8 +1,12 @@
 import './App.css';
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Grapesnav from './Grapesnav';
-import Grapesfooter from './Grapesfooter';
 import Grapescontainer from './Grapescontainer';
+import Grapesfooter from './Grapesfooter';
+
+
+
 
 
 

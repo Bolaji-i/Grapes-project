@@ -1,3 +1,22 @@
 .navbar {
-    background-color: bisque;
+    background-color: rgb(6, 34, 53);
+    color: rgb(253, 253, 250);
+}
+.welcome {
+    height: 160px;
+    background-color: chocolate;
+    color: cornsilk;
+    font-size: 40px;
+}
+
+.welcome h1 {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.welcome quote {
+    font-size: large;
+    float: right;
+    margin-right: 20px;
+    padding-top: 50px;
+    font-style: italic;
 }

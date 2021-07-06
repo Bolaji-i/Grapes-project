@@ -1,3 +1,11 @@
 .footer {
-    background-color: slategray;
+    background-color: rgb(48, 113, 179);
+    position: relative;
+    width: 100%;
+    color: rgb(82, 14, 14);
+}
+
+.footer .container {
+    color: rgb(155, 9, 9);
+    text-align: center;
 }

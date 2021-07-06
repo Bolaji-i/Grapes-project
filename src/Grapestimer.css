@@ -1,4 +1,31 @@
-span {
-    height: 100px;
-    width: 100px;
+
+.grapestimer {
+    height: 80px;
+    width: 210px;
+    background-color: rgb(218, 226, 200);
+    margin-left: 15px;
 }
+#grapestimer-hour {
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    border: 2px solid rgb(17, 192, 169);
+    font-size: 50px;
+}
+#grapestimer-min {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    border: 2px solid green;
+}
+#grapestimer-sec {
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    font-size: 50px;
+    border: 2px solid rgb(65, 55, 201);
+}
+.coli {
+    font-size: 50px;
+}
+
