@@ -5,11 +5,12 @@ import './Grapesfooter.css'
 class Grapesfooter extends Component {
     render() {
         return (
-            <footer className ="footer mt-auto py-3 bg-light">
+            <footer class ="footer mt-auto py-3">
                 <div class="container">
                     <p>
-                        <span class="text-muted">Place sticky footer content here.</span>
+                        <span class="text-muted">Designed and constructed by Bolaji Daniels Ilori <i class="fas fa-copyright"></i></span>
                     </p>
+                
                 </div>
             </footer>
         )

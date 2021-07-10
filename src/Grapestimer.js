@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import 'bulma/css/bulma.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Grapestimer.css'
 
 class Grapestimer extends Component {

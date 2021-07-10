@@ -43,7 +43,7 @@ class Grapesnav extends Component {
           </div>
         </nav>
         <div className='welcome'>
-          <h1>Apps-Portfolio Project</h1>
+          <h1>Apps-Portfolio Project - Under Construction</h1>
           <quote>
             This space projects the things I really love and admire in life.
             I believe we would have a few in common! :)

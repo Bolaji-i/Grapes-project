@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Grapestimer from './Grapestimer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Grapescountdown extends Component {
     constructor(props) {
