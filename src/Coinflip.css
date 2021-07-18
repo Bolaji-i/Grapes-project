@@ -1,0 +1,14 @@
+.Coinflip {
+    text-align: center;
+}    
+#Coinflip-total {
+    color: rgb(250, 4, 4);
+}
+
+#Coinflip-heads {
+    color: green;
+}
+
+#Coinflip-tails {
+    color: rgb(110, 5, 190);
+}
