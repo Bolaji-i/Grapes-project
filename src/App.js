@@ -6,10 +6,6 @@ import Grapescontainer from './Grapescontainer';
 import Grapesfooter from './Grapesfooter';
 
 
-
-
-
-
 class App extends Component {
   render() {
     return (
