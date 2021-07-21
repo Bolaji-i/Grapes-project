@@ -11,7 +11,7 @@ class Grapescontainer extends Component {
         return (
             <div className ="container-sm px-4">
                 <Grapesfavorites />
-                <h2>If you are a lotto lover, this for you! 😜😁</h2>
+                <h2>For Lottery Lovers!</h2>
                 <Lotto />
                 <Lotto title='Mini Daily' maxNum={30} numBalls = {4} />
                 <RollDice />
